@@ -12,7 +12,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "demo": "npx playwright test ./tests/demo/mytest.test.ts --headed --project=chromium"
+    "demo": "npx playwright test ./tests/demo/mytest.test.ts --headed --project=chromium",
+    "demo-safari": "npx playwright test ./tests/demo/mytest.test.ts --headed --project=webkit"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
