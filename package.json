@@ -11,7 +11,9 @@
   "author": "Vijendra Aithal",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "demo": "npx playwright test ./tests/demo/mytest.test.ts --headed --project=chromium"
+  },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.5"
